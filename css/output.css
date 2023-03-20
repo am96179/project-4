@@ -1,0 +1,19 @@
+/* Error: Undefined variable.
+ *    ,
+ * 26 |     background-color: $lightpurple;
+ *    |                       ^^^^^^^^^^^^
+ *    '
+ *   project-4\scss\components\_grid.scss 26:23  @use
+ *   project-4\scss\components\_index.scss 5:1   @use
+ *   project-4\scss\styles.scss 2:1              root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 26 \2502      background-color: $lightpurple;\d\a    \2502                        ^^^^^^^^^^^^\a    \2575 \a   project-4\\scss\\components\\_grid.scss 26:23  @use\a   project-4\\scss\\components\\_index.scss 5:1   @use\a   project-4\\scss\\styles.scss 2:1              root stylesheet";
+}

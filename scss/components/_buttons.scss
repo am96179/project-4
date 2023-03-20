@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-@use'../utilities/variables';
+@use '../utilities/variables' ;
 
 .btn {
     margin-top: 15px;
@@ -14,21 +14,21 @@
   }
   
   .default {
-    background-color: $lightblue;
+    background-color: variables.$lightblue;
   }
   
   .error {
-    background-color: $coral;
+    background-color:variables.$lightcoral;
   }
   
   .info {
-    background-color: $lightpurple;
+    background-color:variables.$lightpurple;
   }
   
   .success {
-    background-color:$lightgreen ;
+    background-color:variables.$lightgreen ;
   }
   
   .warning {
-    background-color: $lightred;
+    background-color:variables.$lightred;
   }

@@ -2,19 +2,20 @@
 /*              Media Queries                    */
 /* ============================================= */
 
-@use '../utilities/mixins';
+@use '../utilities/mixins' ;
 @use'../utilities/variables';
 
-@media (min-width: $tablet-media-break) {
+
+@media (min-width: variables.$tablet-media-break) {
 
     .container {
-      @include media-display;
+      @include mixins.media-display;
       max-width: 1400px;
       
     }
     
     .centered {
-      @include media-display;
+      @include mixins.media-display;
       
     }
     

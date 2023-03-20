@@ -4,14 +4,14 @@
 @use'../utilities/mixins';
 
 .img-avatar {
-    @include img-margin-display;
+    @include mixins.image-display;
     margin-top: 10px;
     max-width: 100%; 
     max-height: 100%;
   }
   
   .img-frame {
-    @include img-margin-display;
+    @include mixins.image-display;
     margin-top: 10px;
     max-width: 100%;
     padding: 13px;
@@ -19,5 +19,5 @@
   }
   
   .img-logo {
-    @include img-margin-display;
+    @include mixins.image-display;
   }
